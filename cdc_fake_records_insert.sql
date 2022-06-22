@@ -22,7 +22,6 @@ While @Id <= 1500
 Begin 
    Insert Into cdc_fake_records values 
    (
-
    NEWID(),
    'TeamId - ' + CAST(@Id as nvarchar(10)),
    'TeamCode - ' + CAST(@Id as nvarchar(10)),
